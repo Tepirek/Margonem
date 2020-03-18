@@ -1,11 +1,16 @@
 // ==UserScript==
 // @name         MARGONEM ADDONS v3.1 - PANEL
+// @description  
 // @namespace    http://tampermonkey.net/
+// @author       Tepirek
 // @version      3.1
-// @description  try to take over the world!
-// @author       Aro
-// @match        http://telawel.margonem.pl/
-// @grant        none
+// @updateURL    https://github.com/mygithubaccount/test/raw/master/test.user.js
+// @downloadURL  https://github.com/mygithubaccount/test/raw/master/test.user.js
+// @match        http://*.margonem.pl/
+// @run-at       document-end
+// @grant        GM_getResourceText
+// @grant        GM_addStyle
+// @grant        GM_xmlhttpRequest
 // ==/UserScript==
 
 (function() {
