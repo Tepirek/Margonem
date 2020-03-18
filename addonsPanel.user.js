@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         MARGONEM ADDONS v3.1 - PANEL
+// @name         MARGONEM ADDONS v3.1 - PANELss
 // @description  
 // @namespace    http://tampermonkey.net/
 // @author       Tepirek
