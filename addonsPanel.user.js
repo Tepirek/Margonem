@@ -3,7 +3,7 @@
 // @description  123
 // @namespace    http://tampermonkey.net/
 // @author       Tepirek
-// @version      3.1.1
+// @version      3.1.2
 // @updateURL    https://github.com/Tepirek/Margonem/raw/master/addonsPanel.user.js
 // @downloadURL  https://github.com/Tepirek/Margonem/raw/master/addonsPanel.user.js
 // @match        http://*.margonem.pl/
