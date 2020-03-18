@@ -1,16 +1,13 @@
 // ==UserScript==
 // @name         MARGONEM ADDONS v3.1 - CHASE
-// @description  123
+// @description  none
 // @namespace    http://tampermonkey.net/
 // @author       Tepirek
 // @version      3.1
 // @updateURL    https://github.com/Tepirek/Margonem/raw/master/addonsPanel.user.js
 // @downloadURL  https://github.com/Tepirek/Margonem/raw/master/addonsPanel.user.js
 // @match        http://*.margonem.pl/
-// @run-at       document-end
-// @grant        GM_getResourceText
-// @grant        GM_addStyle
-// @grant        GM_xmlhttpRequest
+// @grant        none
 // ==/UserScript==
 
 (function(d, _p, _nP, _r, _bM) {
