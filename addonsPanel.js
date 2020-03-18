@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         MARGONEM ADDONS v3.1 - PANEL
+// @name         MARGONEM ADDONS v3.1 - PANELsss
 // @namespace    http://tampermonkey.net/
 // @version      3.1
 // @description  try to take over the world!
