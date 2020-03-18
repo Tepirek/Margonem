@@ -531,6 +531,12 @@
     }
 
     window.onload = () => {
+        // Onload preferences
+        document.querySelector('#inne').style.display = "none";
+        document.querySelector('#MgvAddonsIcon').style.display = "none";
+        document.querySelector('#ni-promo').style.display = "none";
+        document.querySelector('#ual').style.display = "none";
+        // Addons panel
         if(!localStorage.getItem("containerVisible")) localStorage.setItem("containerVisible", "true");
         if(!localStorage.getItem("checkbox1")) localStorage.setItem("checkbox1", "false");
         if(!localStorage.getItem("checkbox2")) localStorage.setItem("checkbox2", "false");
