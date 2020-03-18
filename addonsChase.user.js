@@ -16,7 +16,7 @@
     //elementy graficzne
     let box = d.createElement("span");
     box.id = "enepere123";
-    box.style = "position: absolute; z-index: 1000; color: white; top: 0px; left: 0px; min-width: 300px; font-size: 15px;";
+    box.style = "position: absolute; z-index: 1000; color: white; top: 60px; left: 0px; min-width: 300px; font-size: 15px;";
     d.body.appendChild(box);
     let uciek = d.createElement("span");
     uciek.innerHTML = "UCIECZKA";
