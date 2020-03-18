@@ -4,8 +4,8 @@
 // @namespace    http://tampermonkey.net/
 // @author       Tepirek
 // @version      3.1
-// @updateURL    https://github.com/mygithubaccount/test/raw/master/test.user.js
-// @downloadURL  https://github.com/mygithubaccount/test/raw/master/test.user.js
+// @updateURL    https://github.com/Tepirek/Margonem/raw/master/addonsPanel.user.js
+// @downloadURL  https://github.com/Tepirek/Margonem/raw/master/addonsPanel.user.js
 // @match        http://*.margonem.pl/
 // @run-at       document-end
 // @grant        GM_getResourceText
