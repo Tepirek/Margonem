@@ -217,9 +217,9 @@
             mobs_id: [],
             ignore_mob: []
         },
-        "DEFAULT": {
-            map: "",
-            mobs: "",
+        "Maddoki": {
+            map: "Kwieciste Przejście, Głuchy Las, Zawodzące Kaskady, Mglista Grota p.1 - sala 1, Mglista Grota p.1 - sala 2, Mglista Grota p.2, Mglista Grota - sala wyjściowa, Zawodzące Kaskady, Skryty Azyl, Błotna Grota p.2, Błotna Grota p.1, Skryty Azyl, Błotna Grota p.1, Błotna Grota p.2, Skryty Azyl, Jaszczurze Korytarze p.1, Jaszczurze Korytarze p.2, Grota Jaszczurzej Łuski, Jaszczurze Korytarze p.2, Jaszczurze Korytarze p.3 - sala 2, Jaszczurze Korytarze p.3 - sala 1, Jaszczurze Korytarze p.3 - sala 2, Jaszczurze Korytarze p.4 - sala 2, Jaszczurze Korytarze p.4 - sala 3, Jaszczurze Korytarze p.3 - sala 3, Jaszczurze Korytarze p.4 - sala 3, Jaszczurze Korytarze p.4 - sala 2, Jaszczurze Korytarze p.4 - sala 1, Skryty Azyl, Jaszczurze Korytarze p.4 - sala 1, Jaszczurze Korytarze p.4 - sala 2, Jaszczurze Korytarze p.3 - sala 2, Jaszczurze Korytarze p.2, Jaszczurze Korytarze p.1, Skryty Azyl, Złota Dąbrowa, Oślizgłe Przejście - sala 1, Oślizgłe Przejście - sala 2, Złota Dąbrowa, Mglisty Las, Mechata Jama p.2, Mechata Jama p.1 - sala 2, Mglisty Las, Mechata Jama p.1 - sala 1, Mechata Jama p.2, Mglisty Las, Jaszczurza Nora, Mglisty Las, Grota porośniętych Stalagmitów - sala wyjściowa, Grota porośniętych Stalagmitów - przejście, Grota porośniętych Stalagmitów - sala boczna, Grota porośniętych Stalagmitów - przejście, Grota porośniętych Stalagmitów - sala główna, Grota Błotnej Magii, Grota porośniętych Stalagmitów - sala główna, Grota porośniętych Stalagmitów - przejście, Grota porośniętych Stalagmitów - sala wyjściowa, Mglisty Las, Złota Dąbrowa, Oślizgłe Przejście - sala 2, Oślizgłe Przejście - sala 1, Złota Dąbrowa, Skryty Azyl, Zawodzące Kaskady",
+            mobs: "Opieszały Maddok, Senny Maddok, Aligator rzeczny, Kajman czarny, Ociężały Maddok, Szaman Maddoków, Leniwy Maddok, Strażnik Maddoków, Krokodyl różańcowy",
             mobs_id: [],
             ignore_mob: []
         },
