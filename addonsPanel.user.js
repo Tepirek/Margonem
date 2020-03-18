@@ -228,9 +228,9 @@
             mobs_id: [],
             ignore_mob: []
         },
-        "DEFAULT": {
-            map: "",
-            mobs: "",
+        "Pustynia": {
+            map: "Smocze Skalisko, Jaskinia Próby, Jaskinia Odwagi, Smocze Skalisko, Urwisko Vapora, Smocze Skalisko, Pustynia Shaiharrud - zachód, Skały Umarłych, Pustynia Shaiharrud - zachód, Jurta Chaegda, Jaskinia Smoczej Paszczy p.1, Jaskinia Smoczej Paszczy p.2, Jaskinia Smoczej Paszczy p.1, Pustynia Shaiharrud - zachód, Namiot Gwardii Smokoszczękich, Pustynia Shaiharrud - zachód, Sępiarnia, Pustynia Shaiharrud - zachód, Jurta Czcicieli, Jaskinia Szczęk, Pustynia Shaiharrud - zachód, Namiot Piechoty Piłowej, Pustynia Shaiharrud - zachód, Namiot Naznaczonych, Jaskinia Piaskowej Burzy s.2, Jaskinia Piaskowej Burzy s.1, Pustynia Shaiharrud - zachód, Pustynia Shaiharrud - wschód, Pustynia Shaiharrud - wschód, Jaskinia Sępa s.1, Namiot Błogosławionych, Pustynia Shaiharrud - wschód, Jaskinia Sępa s.2, Pustynia Shaiharrud - wschód, Namiot Pustynnych Smoków, Pustynia Shaiharrud - wschód, Grota Poświęcenia, Pustynia Shaiharrud - wschód, Jurta Nomadzka, Pustynia Shaiharrud - wschód, Świątynia Hebrehotha - przedsionek, Pustynia Shaiharrud - wschód, Pustynia Shaiharrud - zachód, Smocze Skalisko, Jaskinia Odwagi, Jaskinia Próby, Smocze Skalisko",
+            mobs: "Sęp, Smokoszczęki, Tancerz Shaiharrud, Piłowiec, Zaklinacz sępów, Shaiharrudzki mutant, Czciciel Charkhaam",
             mobs_id: [],
             ignore_mob: []
         },
