@@ -541,7 +541,7 @@
     function returnToExp(teleportName, maps) {
         let m = maps.split(", ");
         for(i in m) {
-            if(m[i] == map.name) {
+            if(!g.dead && m[i] == map.name) {
                 useTeleport(teleportName);
                 return;
             }
@@ -581,7 +581,7 @@
             createItemsListeners();
             findTeleports();
             findBlessings();
-            if(!g.dead) returnToExp(localStorage.getItem("inputTeleport"), localStorage.getItem("inputTownDead"));
+            returnToExp(localStorage.getItem("inputTeleport"), localStorage.getItem("inputTownDead"));
         }, 3000);
     }
 })();
