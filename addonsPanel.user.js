@@ -530,6 +530,24 @@
         return blessings;
     }
 
+    function useTeleport(teleportName) {
+        for (let i in g.item) {
+            if (g.item[i].tip.indexOf("Gotowy do użycia za") == -1 && g.item[i].name == teleportName) {
+                _g(`moveitem&id=${g.item[i].id}&st=1`);
+            }
+        }
+    }
+
+    function returnToExp(teleportName, maps) {
+        let m = maps.split(", ");
+        for(i in m) {
+            if(m[i] == map.name) {
+                useTeleport(teleportName);
+                return;
+            }
+        }
+    }
+
     window.onload = () => {
         // Onload preferences
         document.querySelector('#inne').style.display = "none";
@@ -563,6 +581,7 @@
             createItemsListeners();
             findTeleports();
             findBlessings();
+            if(!g.dead) returnToExp(localStorage.getItem("inputTeleport"), localStorage.getItem("inputTownDead"));
         }, 3000);
     }
 })();
