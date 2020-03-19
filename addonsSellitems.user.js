@@ -225,20 +225,21 @@
             setTimeout(() => {
                 localStorage.setItem("shoppingDone", 1);
                 localStorage.setItem("sell", "false");
+                location.reload();
             }, 4500);
         }
     }
 
     function returnToExp() {
-        if(localStorage.getItem("inputTeleport") == "KWIATY") {
-            localStorage.setItem("shoppingDone", 0);
-            localStorage.setItem("bot_maps", localStorage.getItem("lastBotMaps"));
-            location.reload();
-        }
-        else if (localStorage.getItem("inputTeleport") != "THUZAL" && localStorage.getItem("inputTeleport") != "KWIATY") {
+        if (localStorage.getItem("inputTeleport") != "THUZAL" && localStorage.getItem("inputTeleport") != "KWIATY") {
             localStorage.setItem("shoppingDone", 0);
             localStorage.setItem("bot_maps", localStorage.getItem("lastBotMaps"));
             useTeleport(localStorage.getItem("inputTeleport"));
+        }
+        else if(localStorage.getItem("inputTeleport") == "KWIATY") {
+            localStorage.setItem("shoppingDone", 0);
+            localStorage.setItem("bot_maps", localStorage.getItem("lastBotMaps"));
+            location.reload();
         }
         else if(map.name == "Dom Tunii") {
             localStorage.setItem("bot_maps", "Kwieciste Przejście, Lazurowe Wzgórze, Grań Gawronich Piór, Thuzal, Gildia Magów");
