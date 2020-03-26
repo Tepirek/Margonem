@@ -84,7 +84,6 @@
     });
     box.appendChild(uciek);
     let dane = d.createElement("div");
-    dane.style = "min-width:360px";
     box.appendChild(dane);
     //zmienna numeracji
     let number;
@@ -104,13 +103,6 @@
             message(`Przerwano pościg lub śledzenie!`);
         }
     });
-
-    //stworzenie spana dla osoby
-    function wyjebPodswietlenie() {
-        for (let i in g.other) {
-            d.querySelector(`#other${i}`).style.backgroundColor = "";
-        }
-    }
 
     function createOtherSpan(nr, id, nick, klan, relacja, lvl, profa, prawa) {
         let entry = d.createElement("div");
