@@ -88,8 +88,10 @@
     //zmienna numeracji
     let number;
     //zmienne dla poscigu
-    let attack = false;
-    let oid = 0;
+    if (!localStorage.getItem('attack')) localStorage.setItem('attack', false);
+    let attack = localStorage.getItem('attack');
+    if (!localStorage.getItem('enemy')) localStorage.setItem('enemy', 0);
+    let oid = localStorage.getItem('enemy');
     let ox;
     let oy;
     let hx;
@@ -99,7 +101,9 @@
     d.querySelector("#nick").addEventListener("click", function() {
         if (oid != 0) {
             oid = 0;
+            localStorage.setItem('enemy', 0);
             attack = false;
+            localStorage.setItem('attack', false);
             message(`Przerwano pościg lub śledzenie!`);
         }
     });
@@ -163,8 +167,10 @@
             if (!g.battle) {
                 if(map.pvp == 2) {
                     oid = id;
+                    localStorage.setItem('enemy', id);
                     attack = true;
-                    message("Rozpoczęto pościg za: ${g.other[id].nick}!");
+                    localStorage.setItem('attack', true);
+                    message(`Rozpoczęto pościg za: ${g.other[id].nick}!`);
                 } else message("Nie jesteś na czerwonej mapie!");
             } else message("Trwa walka!");
         });
@@ -176,7 +182,9 @@
         entryFollow.addEventListener("click", function() {
             if (!g.battle) {
                 oid = id;
+                localStorage.setItem('enemy', id);
                 attack = false;
+                localStorage.setItem('attack', false);
                 message(`Rozpoczęto podążanie za: ${g.other[id].nick}!`);
             } else message("Trwa walka!");
         });
@@ -241,7 +249,9 @@
                     }
                 } else {
                     oid = 0;
+                    localStorage.setItem('enemy', 0);
                     attack = false;
+                    localStorage.setItem('attack', false);
                     message(`Jest walka!`);
                 }
             }
