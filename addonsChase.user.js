@@ -241,7 +241,7 @@
                 hx = hero.x;
                 hy = hero.y;
                 if (!g.battle) {
-                    if (attack && Math.abs(hx - ox) <= 1 && Math.abs(hy - oy) <= 1) {
+                    if (attack && Math.abs(hx - ox) <= 2 && Math.abs(hy - oy) <= 2) {
                         if (!walczacy.includes(Number(oid))) _g(`fight&a=attack&id=${oid}`);
                     }
                     if (hx != ox || hy != oy) {
