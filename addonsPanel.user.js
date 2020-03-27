@@ -243,9 +243,9 @@
             mobs_id: [],
             ignore_mob: []
         },
-        "DEFAULT": {
-            map: "",
-            mobs: "",
+        "Miśki": {
+            map: "Andarum Ilami, Skały Mroźnych Śpiewów, Firnowa Grota p.1, Firnowa Grota p.2, Firnowa Grota p.2 s.1, Firnowa Grota p.2, Skały Mroźnych Śpiewów, Lodowa Wyrwa p.2, Lodowa Wyrwa p.1 s.1, Lodowa Wyrwa p.1 s.2, Sala Lodowych Iglic, Lodowa Wyrwa p.1 s.2, Lodowa Wyrwa p.1 s.1, Skały Mroźnych Śpiewów",
+            mobs: "Lodowy mykonid, Niedźwiedziołak, Purpurowy włochacz, Lodowy włochacz",
             mobs_id: [],
             ignore_mob: []
         },
