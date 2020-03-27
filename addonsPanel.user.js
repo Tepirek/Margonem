@@ -232,7 +232,7 @@
             ignore_mob: []
         },
         "Orki": {
-            map: "Ithan, Zniszczone Opactwo, Zburzona Twierdza, Opuszczony Bastion, Podziemne Przejście p.1, Podziemne Przejście p.2, Zrujnowana Wieża, Opuszczony Bastion, Zrujnowana Wieża, Podziemne Przejście p.2, Podziemne Przejście p.1, Opuszczony Bastion",
+            map: "Ithan, Zniszczone Opactwo, Zburzona Twierdza, Opuszczony Bastion, Podziemne Przejście p.1, Podziemne Przejście p.2, Zrujnowana Wieża, Opuszczony Bastion, Zrujnowana Wieża, Podziemne Przejście p.2, Podziemne Przejście p.1",
             mobs: "Ork wuakl, Ork bashwooz, Ork trarroll, Ork kuurgh, Ork zhaghokk",
             mobs_id: [],
             ignore_mob: []
