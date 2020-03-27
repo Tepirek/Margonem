@@ -150,7 +150,7 @@
         "Erem": {
             map: "Andarum Ilami, Świątynia Andarum, Zejście prawe Świątyni, Podziemia Świątyni, Magazyn Świątyni, Magazyn Świątyni p.2, Krypta Świątyni Andarum, Magazyn Świątyni p.2, Magazyn Świątyni, Podziemia Świątyni, Zejście lewe Świątyni, Świątynia Andarum, Andarum Ilami, Skały Mroźnych Śpiewów, Erem Czarnego Słońca - północ, Erem Czarnego Słońca - lochy, Erem Czarnego Słońca - południe, Skały Mroźnych Śpiewów, Erem Czarnego Słońca - sala wejściowa, Erem Czarnego Słońca p.1 s.1, Erem Czarnego Słońca - sala wejściowa, Erem Czarnego Słońca p.2 s.1, Erem Czarnego Słońca p.2 s.2, Erem Czarnego Słońca - sala wejściowa, Erem Czarnego Słońca p.1 s.2, Erem Czarnego Słońca - sala wejściowa, Skały Mroźnych Śpiewów, Andarum Ilami",
             mobs: "Przerażający mnich, Śmierć magazyniera, Duchowy rozpruwacz, Mnich chybione zaklęcie, Chytry mnich, Spokojny mnich, Przebiegły mnich",
-            mobs_id: [175813],
+            mobs_id: [],
             ignore_mob: []
         },
         "Bandyci": {
