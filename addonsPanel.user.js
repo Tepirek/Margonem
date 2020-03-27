@@ -238,7 +238,7 @@
             ignore_mob: []
         },
         "Koboldy": {
-            map: "Nithal, Podgrodzie Nithal, Nizina Wieśniaków, Lazurytowa Grota p.1, Lazurytowa Grota p.2, Lazurytowa Grota p.4, Lazurytowa Grota p.3, Lazurytowa Grota p.2, Lazurytowa Grota p.1",
+            map: "Nithal, Podgrodzie Nithal, Nizina Wieśniaków, Lazurytowa Grota p.1, Lazurytowa Grota p.2, Lazurytowa Grota p.4, Lazurytowa Grota p.3, Lazurytowa Grota p.2",
             mobs: "Kobold nożownik, Kobold łucznik, Kobold",
             mobs_id: [],
             ignore_mob: []
